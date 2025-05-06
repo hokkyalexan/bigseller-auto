@@ -28,19 +28,7 @@ const Tesseract = require("tesseract.js");
     page.click("button:has-text('Log In')")
   ]);
 
-  await page.waitForSelector("li[data-status='2']");
-  await page.click("li[data-status='2']");
-  await page.waitForTimeout(1000);
-  await page.click("button.export-btn");
-  await page.waitForTimeout(1000);
-  await page.click("li.export-all");
-  await page.click(".template-dropdown");
-  await page.waitForSelector("li[data-template='Siap Kirim 2']");
-  await page.click("li[data-template='Siap Kirim 2']");
-  await page.click("button.confirm-export");
-  await page.waitForTimeout(3000);
-  await page.click("button.download-export");
+  console.log("✅ Login sukses!");
 
-  console.log("✅ Selesai!");
   await browser.close();
 })();
