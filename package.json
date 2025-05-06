@@ -10,6 +10,6 @@
     "tesseract.js": "^4.0.2"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.0.0"
   }
 }
