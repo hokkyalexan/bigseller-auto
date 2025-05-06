@@ -8,5 +8,8 @@
   "dependencies": {
     "puppeteer": "^21.3.8",
     "tesseract.js": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
